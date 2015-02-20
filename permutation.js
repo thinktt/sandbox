@@ -1,10 +1,10 @@
-var arr = [1,2, 3];
+var arr = [1,2, 3, 4];
 
 function getPermutation(list) {
 	var arr = list.slice();
 	var permutations;
 	var permsList = [];
-	var curent; 
+	var current; 
 	var i, j;
 
 	console.log('Howdy');
@@ -23,10 +23,9 @@ function getPermutation(list) {
 			permutations[j].unshift(current);
 			permsList.push(permutations[j]);
 		}
+		console.log('Permslist ', permsList);
 	}
-	console.log('Permslist ', permsList);
 	return permsList;
-
 }
 
 
