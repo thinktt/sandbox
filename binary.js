@@ -1,13 +1,6 @@
-var x = 100;
-var y;
+var num = 0.3;
+var inty = 8;
+var r;
 
-console.log(x.toString(2));
-
-y = x >> 2;
-console.log(y.toString(2));
-
-y = x << 2;
-console.log(y.toString(2));
-
-y = x  >>> 2;
-console.log(y.toString(2));
+console.log(num.toString(2));
+console.log(num << 8);
